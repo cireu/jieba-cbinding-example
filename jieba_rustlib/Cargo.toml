@@ -1,0 +1,11 @@
+[package]
+name = "jieba_rustlib"
+version = "0.1.0"
+authors = ["Zhu Zihao <all_but_last@163.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+jieba-rs = "0.6"
